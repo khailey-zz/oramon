@@ -252,7 +252,7 @@ function testconnect
         limit=60
      fi
      sqloutput
-     sleep .5
+     sleep 1
      count=0
      #if [[ -f $SQLTESTOUT ]]; then
        grep '^ *1'  $SQLTESTOUT >/dev/null  2>&1
