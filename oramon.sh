@@ -20,7 +20,7 @@ RUN_TIME=-1        #  run continuously
 
 function usage
 {
-       echo "Usage: $(basename $0) [username] [password] [host] [sid] <port=1521> <runtime=3600>"
+       echo "Usage: $(basename $0) system [password] [host] [sid] <port=1521> <runtime=3600>"
        exit
 }
 
